@@ -1,4 +1,4 @@
-name = "pop3"
+name = "lua-pop3"
 version = "0.1.4"
 
 desc = "Simple POP3 client library for Lua"
