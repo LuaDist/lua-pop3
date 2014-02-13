@@ -1,0 +1,48 @@
+type = "x86"
+arch = "Windows"
+author = "Alexey Melnichuk"
+depends = {
+[[lua >= 5.1]],
+[[luasocket >= 2.0]],
+}
+
+desc = "Simple POP3 client library for Lua"
+version = "0.1.4"
+maintainer = "Alexey Melnichuk"
+files = {
+Runtime = {
+[[lib\lua\pop3\win\cp.lua]],
+[[lib\lua\pop3.lua]],
+[[lib\lua\pop3\charset.lua]],
+[[lib\lua\pop3\message.lua]],
+}
+,
+Example = {
+[[share\lua-pop3\example\\example.lua]],
+}
+,
+Data = {
+[[share\lua-pop3\README.md]],
+[[share\lua-pop3\LICENCE.txt]],
+}
+,
+Test = {
+[[share\lua-pop3\test\\test-message.lua]],
+[[share\lua-pop3\test\\tests\test1\1.jpg]],
+[[share\lua-pop3\test\\tests\test1\kokouk.bmp]],
+[[share\lua-pop3\test\\tests\test1\logo.jpg]],
+[[share\lua-pop3\test\\tests\test1\SEP7-8.png]],
+[[share\lua-pop3\test\\tests\test1\test.eml]],
+[[share\lua-pop3\test\\tests\test1\text.html]],
+[[share\lua-pop3\test\\tests\test1\text.txt]],
+[[share\lua-pop3\test\\tests\test2\test.eml]],
+[[share\lua-pop3\test\\tests\test2\text.html]],
+[[share\lua-pop3\test\\tests\test2\text.txt]],
+[[share\lua-pop3\test\\utils.lua]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "lua-pop3"
+url = "https://github.com/moteus/lua-pop3"
